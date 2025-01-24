@@ -1,0 +1,6 @@
+# Transfer learning
+I got these notebooks from a [TensorFlow tutorial](https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub) and made a copy. 
+- The first edited copy was the `transfer_learning_with_hub.ipynb`. There is most of the original file. I think i just added the link to the kaggle [Animal-10](https://www.kaggle.com/datasets/alessiocorrado99/animals10/data) dataset. I don't remember if i edited anything else.
+- The second one is the `transfer_learning_with_hub og.ipynb`. There I removed the flower example dataset to use the Animal-10 dataset and everything from there should run with the correct dataset. I think i also removed the part where they pass an image through the original model. That is, I only left the actual Transfer Learning part and the "example" at the beginning.
+- The last one is `transfer_learning_with_hub, just useful parts.ipynb`. I removed the example at the beginning. If you press run, everything should run fine (you need to uncomment the first imports...). Also, i did not go after the model retraining section because I ran out of RAM on colab. The tutorial text is still around everything. It may speak about the flowers dataset, but its still the same.
+- The fourth file has not yet been created, but it will be the last one (and complete). There the text around everything should be correct. 
