@@ -10,8 +10,8 @@ import threading
 app = Flask(__name__)
 
 # Load your pre-trained model (make sure the path to your model is correct)
-# model = tf.keras.models.load_model('./static/transfer_model2.keras')
-model = tf.keras.models.load_model('./static/best_mobilenetv2_animals10.keras')
+model = tf.keras.models.load_model('./static/transfer_model2.keras')
+# model = tf.keras.models.load_model('./static/best_mobilenetv2_animals10.keras')
 
 # Function to preprocess the image before passing to the model
 def preprocess_image(image):
